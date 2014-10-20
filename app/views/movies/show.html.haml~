@@ -19,4 +19,4 @@
 -# This Delete link will not really be a link, but a form:
 -#= link_to 'Delete', movie_path(@movie), :method => :delete
 = link_to 'Back to movie list', movies_path
-= button_to 'Delete this entry', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?'
+= button_to 'Delete', movie_path(@movie), :method => :delete, :confirm => 'Are you sure?'
